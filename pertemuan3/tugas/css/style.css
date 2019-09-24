@@ -138,12 +138,13 @@
         color: rgb(97, 221, 25);
         bottom: 0px;
         border-color: rgb(230, 219, 219);
-        position: fixed;
+
+        position: absolute;
     }
 
 
 
-    #btnBaca {
+    #Baca {
         cursor: pointer;
         font-size: 20px;
         background-color: rgba(255, 255, 255, 0.205);
@@ -171,5 +172,5 @@
         text-align: center;
         padding-left: 30%;
         padding-right: 30%;
-        padding-top: 30px;
+        padding-top: 10px;
     }

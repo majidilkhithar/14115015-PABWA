@@ -1,0 +1,28 @@
+body {
+    background-image: url('wisata.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.kotak {
+    /* height: auto; */
+    background: transparent;
+    width: 550px;
+    height: 150px;
+    margin-top: 450px;
+    margin-left: 10px;
+    background-color: rgba(29, 28, 28, 0.8);
+
+}
+
+h3 {
+    color: white;
+    font-family: 'Gill Sans', verdana, sans-serif;
+    padding: 15px;
+}
+
+p {
+    color: white;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+}

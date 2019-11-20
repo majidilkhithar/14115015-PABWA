@@ -2,8 +2,8 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="<?= base_url(); ?>assets/css/bootstrap.min.css">
 		<title><?= $judul; ?></title>
+		<link rel="stylesheet" href="<?= base_url();?>assets/css/bootstrap.min.css">
 	</head>
 	<body>
 
@@ -15,8 +15,8 @@
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    <div class="navbar-nav">
-		      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="#">Mahasiswa</a>
+		      <a class="nav-item nav-link" href="<?= base_url();?>">Home <span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="<?= base_url();?>mahasiswa">Mahasiswa</a>
 		      <a class="nav-item nav-link" href="#">About</a>
 		    </div>
 		  </div>

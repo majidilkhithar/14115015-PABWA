@@ -26,7 +26,7 @@
 					?>
 					<li class="list-group-item">
 						<?= $mhs['Nama']; ?>
-						<a href="<?= base_url();?>mahasiswa/hapus" class="badge badge-danger float-right" onclick="return confirm('yakin?')">hapus</a>
+						<a href="<?= base_url();?>mahasiswa/hapus/<?= $mhs['id'];?>" class="badge badge-danger float-right" onclick="return confirm('yakin?')">hapus</a>
 					</li>
 				<?php } ?>
 			</ul>
